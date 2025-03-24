@@ -1,0 +1,9 @@
+.root {
+	padding: 16px;
+}
+
+.menu {
+	display: flex;
+	justify-content: end;
+	gap: 18px;
+}
