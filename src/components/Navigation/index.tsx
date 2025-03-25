@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import style from './Navigation.module.css'
+import ToggleTheme from '../ToggleTheme'
 
 type NavigateItems = {
 	id: number
@@ -28,6 +29,7 @@ const Navigation = () => {
 						{item.title}
 					</Link>
 				))}
+			<ToggleTheme />
 			</div>
 		</nav>
 	)

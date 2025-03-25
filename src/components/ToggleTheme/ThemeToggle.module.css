@@ -1,0 +1,14 @@
+.themeToggle {
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	transition: background-color 0.2s;
+	cursor: pointer;
+}
+
+.themeToggle:hover {
+	background-color: rgb(229 231 235);
+}
+
+:root[data-theme='dark'] .themeToggle:hover {
+	background-color: rgb(89, 98, 109);
+}
